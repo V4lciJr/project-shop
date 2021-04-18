@@ -3,7 +3,7 @@ Projeto de  mercado desenvolvido em python
 
 A aplicaçao apresenta ao usuário, um menu onde é possível:
 > Cadastrar um novo produto
-> Listar Produtos
+Listar Produtos
 > Adicionar Produtos ao carrinho
 > Visualizar Carrinho de Compras
 > Fechar pedido
