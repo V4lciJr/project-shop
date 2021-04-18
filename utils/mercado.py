@@ -16,7 +16,7 @@ def menu() -> None:
     print('Selecione uma opção abaixo: ')
     print('1 - Cadastrar Produto(s)')
     print('2 - Listar Produto(s)')
-    print('3 - Comprar Produto(s)')
+    print('3 - Adicionar produto(s) ao carrinho')
     print('4 - Visualizar Carrinho')
     print('5 - Fechar Pedido')
     print('6 - Sair do Sistema')
@@ -28,7 +28,7 @@ def menu() -> None:
     elif opcao == 2:
         listar_produto()
     elif opcao == 3:
-        comprar_produto()
+        add_carrinho()
     elif opcao == 4:
         visualizar_carrinho()
     elif opcao == 5:
@@ -76,7 +76,7 @@ def listar_produto() -> None:
     menu()
 
 
-def comprar_produto() -> None:
+def add_carrinho() -> None:
     if len(produtos) > 0:
         print('**************************************************************')
         print('****************** Produtos disponíveis **********************')
@@ -114,7 +114,7 @@ def comprar_produto() -> None:
 
         resposta = input('Deseja continuar adicionando produtos ao seu carrinho? [y/n] ')
         if resposta.lower() == 'y':
-            comprar_produto()
+            add_carrinho()
     else:
         print('Não existem produtos no cadastro.')
     sleep(1)
