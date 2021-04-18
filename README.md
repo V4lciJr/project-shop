@@ -1,5 +1,5 @@
 # project-shop
-Projeto de  mercado desenvolvido em python
+## Projeto de  mercado desenvolvido em python
 
 A aplicaçao apresenta ao usuário, um menu onde é possível:
 * Cadastrar um novo produto
